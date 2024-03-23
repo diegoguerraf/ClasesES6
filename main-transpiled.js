@@ -1,7 +1,7 @@
 "use strict";
 
-var _clientes = _interopRequireDefault(require("./js/clientes.js"));
-var _Impuestos = _interopRequireDefault(require("./js/Impuestos.js"));
+var _clientes = _interopRequireDefault(require("./assets/js/clientes.js"));
+var _Impuestos = _interopRequireDefault(require("./assets/js/Impuestos.js"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 // Crear instancia de Impuestos
 var impuestosCliente1 = new _Impuestos["default"](10000, 2000);

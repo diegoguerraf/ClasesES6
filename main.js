@@ -1,5 +1,5 @@
-import Cliente from './js/clientes.js';
-import Impuestos from './js/Impuestos.js';
+import Cliente from './assets/js/clientes.js';
+import Impuestos from './assets/js/Impuestos.js';
 
 // Crear instancia de Impuestos
 const impuestosCliente1 = new Impuestos(10000, 2000);
